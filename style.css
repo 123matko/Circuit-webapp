@@ -1,0 +1,130 @@
+body{
+    background-color: darkslategrey;
+    padding: 0;
+}
+
+.intro{
+    margin: 100px 0px 0px 0px;
+    height: 200px;
+    text-align: center;
+
+
+}
+.intro h1{
+    color: aliceblue;
+
+}
+.intro a{
+    text-decoration: none;
+    color: aliceblue;
+    border: aliceblue solid 2px;
+    padding: 25px 50px;
+    display: inline-block;
+    margin: 10px 50px;
+    text-align: center;
+}
+.intro a:hover{
+    color: darkslategrey;
+    background-color: aliceblue;
+
+}
+.author{
+    margin-top: 50px;
+}
+.author p{
+    color: aliceblue;
+    text-align: center;
+}
+
+#desk{
+    background-color: aliceblue;
+    margin: auto;
+    width: 600px;
+    height: 400px;
+}
+#components{
+    background-color: cadetblue;
+    width: 600px;
+    height: 150px;
+    margin: auto;
+}
+
+.control{
+    background-color: cadetblue;
+}
+.simButton{
+
+    text-decoration: none;
+    color: aliceblue;
+    border: aliceblue solid 2px;
+    padding: 5px 5px;
+    display: inline-block;
+    margin: 10px 50px;
+    text-align: center;
+}
+.simButton:hover{
+    color: cadetblue;
+    background-color: aliceblue;
+}
+
+.resistorButton {
+     width: 150px;
+
+ }
+.resistor {
+    width: 150px;
+    margin: 0;
+    z-index: 5;
+}
+
+
+#form{
+    width: 200px;
+    background-color: darkcyan;
+    border:  solid 2px;
+    box-shadow: darkslategrey;
+    padding: 5px;
+    z-index: 3;
+}
+
+#form label{
+    color: aliceblue;
+}
+
+.tab {
+    overflow: hidden;
+    border: 1px solid aliceblue;
+    background-color: cadetblue;
+}
+
+/* Style the buttons that are used to open the tab content */
+.tab button {
+    background-color: inherit;
+    float: left;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    padding: 4px 6px;
+    transition: 0.3s;
+    color: aliceblue;
+}
+
+/* Change background color of buttons on hover */
+.tab button:hover {
+    background-color: aliceblue;
+    color: cadetblue;
+}
+
+/* Create an active/current tablink class */
+.tab button.active {
+    background-color: aliceblue;
+    color: cadetblue;
+}
+
+/* Style the tab content */
+.tabcontent {
+    display: none;
+    padding: 6px 12px;
+
+    border-top: none;
+}
