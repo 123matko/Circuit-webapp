@@ -2,10 +2,12 @@
 
 
 
-function addResistor(resistorType) {
-    var img="img/" + resistorType +".png";
+function addComponent(componentType,value) {
+    var img="img/" +componentType+ value +".png";
 
-    $("#simDesk").prepend($('<img>',{ class:"resistor", src:img,draggable:true}));
+
+
+    $("#simDesk").append($('<img>',{ class:componentType, src:img,draggable:true}));
 
 
 }

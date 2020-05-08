@@ -39,12 +39,12 @@ body{
 #desk{
     background-color: aliceblue;
     margin: auto;
-    width: 600px;
+    width: 80%;
     height: 400px;
 }
 #components{
     background-color: cadetblue;
-    width: 600px;
+    width: 80%;
     height: 150px;
     margin: auto;
 }
@@ -72,6 +72,16 @@ body{
 
  }
 .resistor {
+    width: 150px;
+    margin: 0;
+    z-index: 5;
+    position: absolute;
+}
+
+.sourceButton{
+    width: 150px;
+}
+.source {
     width: 150px;
     margin: 0;
     z-index: 5;
