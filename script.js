@@ -2,7 +2,7 @@
 
 
 function addComponent(componentType,value) {
-    var img="img/" +componentType+ value +".png";
+    var img="img/" +componentType+ value +".svg";
 
 
 
