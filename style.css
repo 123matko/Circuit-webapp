@@ -86,6 +86,11 @@ body{
     margin: 0;
     z-index: 5;
 }
+.ground {
+    width: 150px;
+    margin: 0;
+    z-index: 5;
+}
 
 
 #form{

@@ -1,19 +1,18 @@
 
 
 
-
 function addComponent(componentType,value) {
     var img="img/" +componentType+ value +".png";
 
 
 
-    $("#simDesk").append($('<img>',{ class:componentType, src:img,draggable:true}));
+    $("#simDesk").append($('<img>',{ class:componentType, src:img,draggable:true }));
 
 
 }
 
 
-function openTab(evt, cityName) {
+function openTab(evt, componentName) {
     // Declare all variables
     var i, tabcontent, tablinks;
 
@@ -30,6 +29,6 @@ function openTab(evt, cityName) {
     }
 
     // Show the current tab, and add an "active" class to the button that opened the tab
-    document.getElementById(cityName).style.display = "block";
+    document.getElementById(componentName).style.display = "block";
     evt.currentTarget.className += " active";
 }
