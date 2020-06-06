@@ -11,13 +11,28 @@
 <body>
 <div id="desk">
     <div class="control">
-    <a href="" class="simButton">Simulate</a>
-
+        <a id="simulation" class="simButton">Simulate</a>
+    <a id="wire" class="simButton" onclick="addWire()">Add wire</a>
 
     </div>
     <div id="simDesk">
+        <div id="wireDialog">
+            <div class="dialogContent">
+            <span class="close">&times;</span>
+                <label for="from">From:</label>
+                <select name="from" id="from">
+                    <option >Choose first component</option>
+                </select>
+                <label for="to">To:</label>
+                <select name="to" id="to">
+                    <option >Choose second component</option>
+                </select>
 
+                <a id="add" class="dialogButton">ADD</a>
+            </div>
+        </div>
     </div>
+
 </div>
 <div id="components" >
     <div class="tab">
@@ -32,10 +47,11 @@
     </div>
 
     <div id="Sources" class="tabcontent">
-        <img  class="sourceButton" src="img/source5v.png" alt="source" onclick="addComponent('source','5v')">
-        <img  class="sourceButton" src="img/ground.png" alt="ground" onclick="addComponent('ground','')">
+        <img  class="sourceButton" src="img/source5v.svg" alt="source" onclick="addComponent('source','5v')">
+        <img  class="sourceButton" src="img/ground.svg" alt="ground" onclick="addComponent('ground','')">
     </div>
 </div>
+
 
 
 

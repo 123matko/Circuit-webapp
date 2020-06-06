@@ -7,41 +7,42 @@
    xmlns="http://www.w3.org/2000/svg"
    xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
    xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
-   sodipodi:docname="resistor10ohm.svg"
-   inkscape:version="1.0 (4035a4fb49, 2020-05-01)"
-   id="svg8"
+   width="150"
+   height="50"
+   viewBox="0 0 39.687499 13.229167"
    version="1.1"
-   viewBox="0 0 210 297"
-   height="297mm"
-   width="210mm">
+   id="svg8"
+   inkscape:version="1.0 (4035a4fb49, 2020-05-01)"
+   sodipodi:docname="resistor10ohm.svg">
   <defs
      id="defs2">
     <rect
-       id="rect859"
-       height="21.733631"
-       width="76.540179"
+       x="73.70536"
        y="57.452381"
-       x="73.705357" />
+       width="76.540176"
+       height="21.733631"
+       id="rect859" />
   </defs>
   <sodipodi:namedview
-     inkscape:window-maximized="1"
-     inkscape:window-y="-11"
-     inkscape:window-x="-11"
-     inkscape:window-height="986"
-     inkscape:window-width="1920"
-     showgrid="false"
-     inkscape:document-rotation="0"
-     inkscape:current-layer="layer1"
-     inkscape:document-units="mm"
-     inkscape:cy="304.68037"
-     inkscape:cx="211.68295"
-     inkscape:zoom="1.4"
-     inkscape:pageshadow="2"
-     inkscape:pageopacity="0.0"
-     borderopacity="1.0"
-     bordercolor="#666666"
+     units="px"
+     id="base"
      pagecolor="#ffffff"
-     id="base" />
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageopacity="0.0"
+     inkscape:pageshadow="2"
+     inkscape:zoom="3.959798"
+     inkscape:cx="60.236029"
+     inkscape:cy="67.789205"
+     inkscape:document-units="mm"
+     inkscape:current-layer="layer1"
+     inkscape:document-rotation="0"
+     showgrid="false"
+     inkscape:window-width="1920"
+     inkscape:window-height="986"
+     inkscape:window-x="-11"
+     inkscape:window-y="-11"
+     inkscape:window-maximized="1" />
   <metadata
      id="metadata5">
     <rdf:RDF>
@@ -55,44 +56,44 @@
     </rdf:RDF>
   </metadata>
   <g
-     id="layer1"
+     inkscape:label="Vrstva 1"
      inkscape:groupmode="layer"
-     inkscape:label="Vrstva 1">
+     id="layer1">
     <rect
-       y="51.404762"
-       x="58.208336"
-       height="34.017857"
-       width="102.80952"
+       style="fill:#ffffff;fill-opacity:1;stroke:#000000;stroke-width:0.830181;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
        id="rect10"
-       style="fill:#ffffff;stroke-width:3.065;stroke:#000000;stroke-opacity:1;stroke-miterlimit:4;stroke-dasharray:none;fill-opacity:1" />
+       width="27.846828"
+       height="9.2140255"
+       x="5.9740596"
+       y="2.0000796" />
     <rect
-       y="66.240326"
-       x="36.096729"
-       height="4.3467264"
-       width="23.056549"
+       style="fill:#000000;stroke-width:0.0716645"
        id="rect12"
-       style="fill:#000000;stroke-width:0.264583" />
+       width="6.2450624"
+       height="1.1773478"
+       x="-0.015057217"
+       y="6.0184164" />
     <rect
-       style="fill:#000000;stroke-width:0.264583"
+       y="6.0184164"
+       x="33.462574"
+       height="1.1773478"
+       width="6.2450624"
        id="rect32"
-       width="23.056549"
-       height="4.3467264"
-       x="159.69495"
-       y="66.240326" />
+       style="fill:#000000;stroke-width:0.0716645" />
     <text
-       style="fill:black;fill-opacity:1;line-height:1.25;stroke:none;font-family:sans-serif;font-style:normal;font-weight:normal;font-size:10.58333333px;white-space:pre;shape-inside:url(#rect859);"
+       xml:space="preserve"
        id="text857"
-       xml:space="preserve" />
+       style="font-style:normal;font-weight:normal;font-size:10.5833px;line-height:1.25;font-family:sans-serif;white-space:pre;shape-inside:url(#rect859);fill:#000000;fill-opacity:1;stroke:none;" />
     <text
-       id="text865"
-       y="75.029564"
-       x="86.624161"
-       style="font-style:normal;font-weight:normal;font-size:18.1992px;line-height:1.25;font-family:sans-serif;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.454981"
-       xml:space="preserve"><tspan
-         style="stroke-width:0.454981"
-         y="75.029564"
-         x="86.624161"
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:4.92941px;line-height:1.25;font-family:sans-serif;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.123236"
+       x="13.670727"
+       y="8.3990583"
+       id="text865"><tspan
+         sodipodi:role="line"
          id="tspan863"
-         sodipodi:role="line">10 Ω</tspan></text>
+         x="13.670727"
+         y="8.3990583"
+         style="stroke-width:0.123236">10 Ω</tspan></text>
   </g>
 </svg>
