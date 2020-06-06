@@ -59,7 +59,8 @@ class Wire {
     }
 
     info(){
-        return components[this.from].info()+" -> "+components[this.to].info();
+
+        return components[this.from].info()+" → "+components[this.to].info();
     }
 
     wireLine(){
@@ -74,6 +75,10 @@ class Wire {
             x1 = comp1.x + (comp1.width / 2);
             y1 = comp1.y;
         }
+        if (components[this.to].type==="source"){
+            x2=comp2.x+(comp2.width/2);
+            y2=comp2.y+(comp2.height);
+        }else
             if (comp2.width>comp2.height){
                 x2=comp2.x;
                 y2=comp2.y+(comp2.height/2);

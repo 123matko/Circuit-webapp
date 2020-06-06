@@ -97,23 +97,23 @@ body{
     z-index: 5;
 
 }
-.resistor:hover{
+.resistor:hover, .source:hover, .ground:hover{
     transform: scale(0.9 );
     padding: 5px;
     border: darkslategrey dashed 2px;
 }
 
 .sourceButton{
-    width: 100px;
+    width: initial;
 
 }
 .source {
-    width: 150px;
+    width: initial;
     margin: 0;
     z-index: 5;
 }
 .ground {
-    width: 150px;
+    width: initial;
     margin: 0;
     z-index: 5;
 }

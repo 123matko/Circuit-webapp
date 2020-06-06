@@ -11,9 +11,9 @@
    inkscape:version="1.0 (4035a4fb49, 2020-05-01)"
    id="svg873"
    version="1.1"
-   viewBox="0 0 210 297"
-   height="297mm"
-   width="210mm">
+   viewBox="0 0 17.197911 27.781251"
+   height="105"
+   width="65">
   <defs
      id="defs867" />
   <sodipodi:namedview
@@ -26,15 +26,16 @@
      inkscape:document-rotation="0"
      inkscape:current-layer="layer1"
      inkscape:document-units="mm"
-     inkscape:cy="504.69094"
-     inkscape:cx="178.76595"
-     inkscape:zoom="0.98994949"
+     inkscape:cy="61.093229"
+     inkscape:cx="-27.296658"
+     inkscape:zoom="3.959798"
      inkscape:pageshadow="2"
      inkscape:pageopacity="0.0"
      borderopacity="1.0"
      bordercolor="#666666"
      pagecolor="#ffffff"
-     id="base" />
+     id="base"
+     units="px" />
   <metadata
      id="metadata870">
     <rdf:RDF>
@@ -51,37 +52,42 @@
      id="layer1"
      inkscape:groupmode="layer"
      inkscape:label="Vrstva 1">
-    <circle
-       r="43.845234"
-       cy="120.19643"
-       cx="98.273804"
+    <ellipse
+       ry="7.7958689"
+       rx="8.0810213"
+       cy="13.880433"
+       cx="8.6997976"
        id="path875"
-       style="fill:#ffffff;stroke:#000000;stroke-width:3.06501" />
-    <rect
-       y="43.832199"
-       x="97.553383"
-       height="31.805073"
-       width="1.8708867"
-       id="rect877"
-       style="fill:#ffffff;stroke:#000000;stroke-width:3.06501" />
-    <rect
-       style="fill:#ffffff;stroke:#000000;stroke-width:3.06501"
-       id="rect879"
-       width="1.8708867"
-       height="31.805073"
-       x="97.553383"
-       y="165.43983" />
+       style="fill:#ffffff;stroke:#000000;stroke-width:0.554849" />
+    <g
+       transform="translate(-0.13985585)"
+       id="g862">
+      <rect
+         style="fill:#ffffff;stroke:#000000;stroke-width:0.639962"
+         id="rect877"
+         width="0.46015832"
+         height="5.6374316"
+         x="8.6095743"
+         y="0.34510508" />
+      <rect
+         y="21.899994"
+         x="8.6095743"
+         height="5.6374316"
+         width="0.46015832"
+         id="rect879"
+         style="fill:#ffffff;stroke:#000000;stroke-width:0.639962" />
+    </g>
     <path
        id="path890"
-       d="m 97.668171,88.99496 h 1.211254 v 20.59133 h -1.211254 z"
-       style="fill:#ffffff;stroke:#000000;stroke-width:1.98436" />
+       d="M 8.5881746,8.3326794 H 8.8114183 V 11.993905 H 8.5881746 Z"
+       style="fill:#ffffff;stroke:#000000;stroke-width:0.359223" />
     <path
        id="rect883"
-       d="m 108.56947,98.684997 v 1.211257 H 87.978141 v -1.211257 z"
-       style="fill:#ffffff;stroke:#000000;stroke-width:1.98436" />
+       d="m 10.59737,10.055609 v 0.215367 H 6.8022258 v -0.215367 z"
+       style="fill:#ffffff;stroke:#000000;stroke-width:0.359223" />
     <path
-       style="fill:#ffffff;stroke:#000000;stroke-width:1.98436"
-       d="m 108.56947,136.63727 v 1.21126 H 87.978141 v -1.21126 z"
+       style="fill:#ffffff;stroke:#000000;stroke-width:0.359223"
+       d="m 10.59737,16.803685 v 0.215367 H 6.8022258 v -0.215367 z"
        id="path892" />
   </g>
 </svg>

@@ -7,34 +7,35 @@
    xmlns="http://www.w3.org/2000/svg"
    xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
    xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
-   sodipodi:docname="ground.svg"
-   inkscape:version="1.0 (4035a4fb49, 2020-05-01)"
-   id="svg873"
+   width="60"
+   height="61"
+   viewBox="0 0 15.875006 16.139584"
    version="1.1"
-   viewBox="0 0 210 297"
-   height="297mm"
-   width="210mm">
+   id="svg873"
+   inkscape:version="1.0 (4035a4fb49, 2020-05-01)"
+   sodipodi:docname="ground.svg">
   <defs
      id="defs867" />
   <sodipodi:namedview
-     inkscape:window-maximized="0"
-     inkscape:window-y="0"
-     inkscape:window-x="0"
-     inkscape:window-height="1020"
-     inkscape:window-width="1920"
-     showgrid="false"
-     inkscape:document-rotation="0"
-     inkscape:current-layer="layer1"
-     inkscape:document-units="mm"
-     inkscape:cy="383.47264"
-     inkscape:cx="178.76595"
-     inkscape:zoom="0.98994949"
-     inkscape:pageshadow="2"
-     inkscape:pageopacity="0.0"
-     borderopacity="1.0"
-     bordercolor="#666666"
+     units="px"
+     id="base"
      pagecolor="#ffffff"
-     id="base" />
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageopacity="0.0"
+     inkscape:pageshadow="2"
+     inkscape:zoom="3.959798"
+     inkscape:cx="35.344498"
+     inkscape:cy="76.383002"
+     inkscape:document-units="mm"
+     inkscape:current-layer="layer1"
+     inkscape:document-rotation="0"
+     showgrid="false"
+     inkscape:window-width="1920"
+     inkscape:window-height="1020"
+     inkscape:window-x="0"
+     inkscape:window-y="0"
+     inkscape:window-maximized="0" />
   <metadata
      id="metadata870">
     <rdf:RDF>
@@ -48,27 +49,31 @@
     </rdf:RDF>
   </metadata>
   <g
-     id="layer1"
+     inkscape:label="Vrstva 1"
      inkscape:groupmode="layer"
-     inkscape:label="Vrstva 1">
-    <rect
-       y="43.832199"
-       x="96.458549"
-       height="31.805073"
-       width="1.8708867"
-       id="rect877"
-       style="fill:#ffffff;stroke:#000000;stroke-width:3.06501" />
-    <path
-       id="path1455"
-       d="m 124.44963,77.017802 v 1.782526 H 70.338353 v -1.782526 z"
-       style="fill:#ffffff;stroke:#000000;stroke-width:3.9023" />
-    <path
-       style="fill:#ffffff;stroke:#000000;stroke-width:3.478"
-       d="m 118.88594,91.183093 v 1.782526 H 75.902047 v -1.782526 z"
-       id="path1457" />
-    <path
-       id="path1459"
-       d="m 112.58291,105.34837 v 1.78253 H 82.205068 v -1.78253 z"
-       style="fill:#ffffff;stroke:#000000;stroke-width:2.92385" />
+     id="layer1">
+    <g
+       transform="matrix(0.27180224,0,0,0.23814797,-18.562644,-9.9530243)"
+       id="g838">
+      <rect
+         y="43.832199"
+         x="96.458549"
+         height="31.805073"
+         width="1.8708867"
+         id="rect877"
+         style="fill:#ffffff;stroke:#000000;stroke-width:3.06501" />
+      <path
+         id="path1455"
+         d="m 124.44963,77.017802 v 1.782526 H 70.338353 v -1.782526 z"
+         style="fill:#ffffff;stroke:#000000;stroke-width:3.9023" />
+      <path
+         style="fill:#ffffff;stroke:#000000;stroke-width:3.478"
+         d="m 118.88594,91.183093 v 1.782526 H 75.902047 v -1.782526 z"
+         id="path1457" />
+      <path
+         id="path1459"
+         d="m 112.58291,105.34837 v 1.78253 H 82.205068 v -1.78253 z"
+         style="fill:#ffffff;stroke:#000000;stroke-width:2.92385" />
+    </g>
   </g>
 </svg>
