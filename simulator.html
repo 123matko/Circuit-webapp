@@ -12,9 +12,11 @@
 <div id="desk">
     <div class="control">
         <a id="simulation" class="simButton">Simulate</a>
-    <a id="wire" class="simButton" onclick="addWire()">Add wire</a>
+    <a id="wire" class="simButton" onclick="openDialog()">Add wire</a>
 
     </div>
+    <div id="deskDesk">
+    <ol id="list"></ol>
     <div id="simDesk">
         <div id="wireDialog">
             <div class="dialogContent">
@@ -28,9 +30,11 @@
                     <option >Choose second component</option>
                 </select>
 
-                <a id="add" class="dialogButton">ADD</a>
+                <a id="add" class="dialogButton" onclick="addWire()">ADD</a>
+
             </div>
         </div>
+    </div>
     </div>
 
 </div>

@@ -39,12 +39,21 @@ body{
 #desk{
     background-color: aliceblue;
     margin: auto;
-    width: 80%;
+    width: 90%;
     height: 400px;
+
+}
+#deskDesk{
+    width: 100%;
+    display: inline;
+}
+#simDesk{
+    padding: 5px;
+    width: 80%;
 }
 #components{
     background-color: cadetblue;
-    width: 80%;
+    width: 90%;
     height: 150px;
     margin: auto;
 }
@@ -68,8 +77,14 @@ body{
     background-color: aliceblue;
     cursor: pointer;
 }
-#simDesk{
-    padding: 5px;
+
+#list{
+    width: 10%;
+    height: 100%;
+    background-color: cadetblue;
+    color: aliceblue;
+    right: 10%;
+    position: absolute;
 }
 
 .resistorButton {
