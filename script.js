@@ -1,8 +1,8 @@
 var components=[];
 var wires=[];
-function createLineElement(x, y, length, angle) {
+function createLineElement(x, y, length, angle,id) {
     var line = document.createElement("div");
-
+    line.setAttribute("id",id);
    var styles = 'border: 2px solid black; '
         + 'width: ' + length + 'px; '
         + 'height: 0px; '
@@ -45,17 +45,21 @@ setInterval(drawLines,10);
 
 class Wire {
 
-    constructor(from,to) {
+    constructor(id,from,to) {
+        let wiress=document.getElementById("wires");
         var list=document.getElementById("list");
         this.from=from;
         this.to=to;
         var li=document.createElement("LI");
         var text = document.createTextNode(this.info());
-
+        this.id=id;
+        let el=document.createElement("option");
+        el.textContent=this.info();
+        el.value=this.id;
         li.appendChild(text);
         list.appendChild(li);
         document.getElementById("simDesk").appendChild(this.wireLine());
-
+        wiress.appendChild(el);
     }
 
     info(){
@@ -126,28 +130,29 @@ class Component {
 function addWire() {
     var first = document.getElementById("from").value;
     var second = document.getElementById("to").value;
-    wires.push(new Wire(first, second));
+    wires.push(new Wire(wires.length,first, second));
 
 }
 
-function openDialog() {
-    var dialog=document.getElementById("wireDialog");
-    var span = document.getElementsByClassName("close")[0];
+function removeWire() {
+    var wire = document.getElementById("wires").value;
+    wires.slice(wire,1);
+    document.getElementById("simDesk").removeChild(wires[wire].id)
+    var list=document.getElementById("list");
+
+}
+
+function openDialog(id) {
+    var dialog=document.getElementById(id);
+
     dialog.style.display="block";
-    span.onclick = function() {
-        dialog.style.display = "none";
-    }
+
     window.onclick = function(event) {
         if (event.target == dialog) {
             dialog.style.display = "none";
         }
     }
 
-
-    for(var i = 0; i < components.length; i++) {
-
-    }
-   //setInterval(showWires,100);
 }
 
 function addComponent(componentType,value) {

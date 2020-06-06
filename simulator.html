@@ -12,15 +12,26 @@
 <div id="desk">
     <div class="control">
         <a id="simulation" class="simButton">Simulate</a>
-    <a id="wire" class="simButton" onclick="openDialog()">Add wire</a>
+    <a id="addwire" class="simButton" onclick="openDialog('wireDialog')">Add wire</a>
+        <a id="removewire" class="simButton" onclick="openDialog('wireDialogRemove')">Remove wire</a>
 
     </div>
     <div id="deskDesk">
     <ol id="list"></ol>
     <div id="simDesk">
+        <div id="wireDialogRemove">
+            <div class="dialogContent">
+
+                <label for="wires">Wire:</label>
+                <select name="wires" id="wires">
+                    <option >Choose wire</option>
+                </select>
+                <a id="remove" class="dialogButton" onclick="removeWire()">REMOVE</a>
+            </div>
+        </div>
         <div id="wireDialog">
             <div class="dialogContent">
-            <span class="close">&times;</span>
+
                 <label for="from">From:</label>
                 <select name="from" id="from">
                     <option >Choose first component</option>
@@ -46,8 +57,8 @@
     </div>
     <div id="Resistors" class="tabcontent">
 
-        <img class="resistorButton" src="img/resistor5ohm.png" alt="Resistor" onclick="addComponent('resistor','5ohm')">
-        <img class="resistorButton" src="img/resistor10ohm.png" alt="Resistor" onclick="addComponent('resistor','10ohm')">
+        <img class="resistorButton" src="img/resistor5ohm.svg" alt="Resistor" onclick="addComponent('resistor','5ohm')">
+        <img class="resistorButton" src="img/resistor10ohm.svg" alt="Resistor" onclick="addComponent('resistor','10ohm')">
     </div>
 
     <div id="Sources" class="tabcontent">
