@@ -63,6 +63,17 @@ body{
     background-color: cadetblue;
 }
 
+#about{
+    background-color: aliceblue;
+    margin: auto;
+    width: 90%;
+
+    padding: 5px;
+}
+#about p{
+    font-size: 20px;
+}
+
 .results{
     color: azure;
     font-size: 20px;
