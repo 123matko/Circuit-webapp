@@ -11,14 +11,33 @@
 <body>
 <div id="desk">
     <div class="control">
-        <a id="simulation" class="simButton">Simulate</a>
+        <a id="simulation" class="simButton" onclick="simulate()">Simulate</a>
     <a id="addwire" class="simButton" onclick="openDialog('wireDialog')">Add wire</a>
         <a id="removewire" class="simButton" onclick="openDialog('wireDialogRemove')">Remove wire</a>
+        <a id="removecompnent" class="simButton" onclick="openDialog('componentDialogRemove')">Remove component</a>
+        <div id="simulator">
+            <span class="results">U:</span>
+            <span id="U"></span>
+            <span class="results">I:</span>
+            <span id="I"></span>
+            <span class="results">R:</span>
+            <span id="R"></span>
+        </div>
 
     </div>
     <div id="deskDesk">
     <ol id="list"></ol>
     <div id="simDesk">
+        <div id="componentDialogRemove">
+            <div class="dialogContent">
+
+                <label for="componentList">Components:</label>
+                <select name="com" id="componentList">
+                    <option >Choose component</option>
+                </select>
+                <a id="removeC" class="dialogButton" onclick="removeComponent()">REMOVE</a>
+            </div>
+        </div>
         <div id="wireDialogRemove">
             <div class="dialogContent">
 
@@ -57,12 +76,12 @@
     </div>
     <div id="Resistors" class="tabcontent">
 
-        <img class="resistorButton" src="img/resistor5ohm.svg" alt="Resistor" onclick="addComponent('resistor','5ohm')">
-        <img class="resistorButton" src="img/resistor10ohm.svg" alt="Resistor" onclick="addComponent('resistor','10ohm')">
+        <img class="resistorButton" src="img/resistor5.svg" alt="Resistor" onclick="addComponent('resistor','5')">
+        <img class="resistorButton" src="img/resistor10.svg" alt="Resistor" onclick="addComponent('resistor','10')">
     </div>
 
     <div id="Sources" class="tabcontent">
-        <img  class="sourceButton" src="img/source5v.svg" alt="source" onclick="addComponent('source','5v')">
+        <img  class="sourceButton" src="img/source5.svg" alt="source" onclick="addComponent('source','5')">
         <img  class="sourceButton" src="img/ground.svg" alt="ground" onclick="addComponent('ground','')">
     </div>
 </div>
